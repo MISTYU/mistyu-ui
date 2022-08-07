@@ -1,0 +1,13 @@
+{
+  "name": "@msityu/componets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "clean": "rimraf dist && rimraf node_modules",
+    "build": "gulp --require @esbuild-kit/cjs-loader"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
